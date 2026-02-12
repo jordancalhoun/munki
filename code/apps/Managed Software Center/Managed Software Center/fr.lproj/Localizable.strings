@@ -310,8 +310,8 @@
 /* Quit button title */
 "Quit" = "Quitter";
 
-/* Quit Apps button title */
-"Quit Apps" = "Quitter les applications";
+/* Quit apps button title */
+"Quit apps" = "Quitter les applications";
 
 /* Force Quit button title */
 "Force Quit" = "Forcer la fermeture";

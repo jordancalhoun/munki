@@ -310,8 +310,8 @@
 /* Quit button title */
 "Quit" = "Afsluiten";
 
-/* Quit Apps button title */
-"Quit Apps" = "Apps afsluiten";
+/* Quit apps button title */
+"Quit apps" = "Apps afsluiten";
 
 /* Force Quit button title */
 "Force Quit" = "Geforceerd afsluiten";

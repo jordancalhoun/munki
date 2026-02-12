@@ -307,8 +307,8 @@
 /* Quit button title */
 "Quit" = "終了";
 
-/* Quit Apps button title */
-"Quit Apps" = "アプリを終了する";
+/* Quit apps button title */
+"Quit apps" = "アプリを終了する";
 
 /* Force Quit button title */
 "Force Quit" = "強制終了";

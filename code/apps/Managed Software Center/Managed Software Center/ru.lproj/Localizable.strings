@@ -310,8 +310,8 @@
 /* Quit button title */
 "Quit" = "Завершить";
 
-/* Quit Apps button title */
-"Quit Apps" = "Закрыть приложения";
+/* Quit apps button title */
+"Quit apps" = "Закрыть приложения";
 
 /* Force Quit button title */
 "Force Quit" = "Принудительное завершение работы";

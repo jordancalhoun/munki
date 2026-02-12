@@ -310,8 +310,8 @@
 /* Quit button title */
 "Quit" = "Lopeta";
 
-/* Quit Apps button title */
-"Quit Apps" = "Lopeta Apps";
+/* Quit apps button title */
+"Quit apps" = "Lopeta apps";
 
 /* Force Quit button title */
 "Force Quit" = "Pakota lopettamaan";

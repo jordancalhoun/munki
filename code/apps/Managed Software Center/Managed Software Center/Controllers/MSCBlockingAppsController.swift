@@ -355,9 +355,9 @@ class MSCBlockingAppsController: NSObject {
         contentView.addSubview(checkbox)
         reopenCheckbox = checkbox
 
-        // Quit Apps button
+        // Quit apps button
         let quitButton = NSButton(
-            title: NSLocalizedString("Quit Apps", comment: "Quit Apps button title"),
+            title: NSLocalizedString("Quit apps", comment: "Quit apps button title"),
             target: self, action: #selector(quitApps(_:))
         )
         quitButton.translatesAutoresizingMaskIntoConstraints = false
