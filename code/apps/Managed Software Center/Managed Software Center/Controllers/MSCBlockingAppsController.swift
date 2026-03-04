@@ -903,9 +903,6 @@ class MSCBlockingAppsController: NSObject {
     func reopenApps() {
         guard !appsToReopenAfterUpdate.isEmpty else { return }
 
-        let apps = appsToReopenAfterUpdate
-        appsToReopenAfterUpdate = []
-
         let config = NSWorkspace.OpenConfiguration()
         config.activates = false // Open apps in background without bringing to foreground
 
@@ -914,7 +911,7 @@ class MSCBlockingAppsController: NSObject {
         let initialDelay: TimeInterval = 2.0
         let staggerDelay: TimeInterval = 1.0
 
-        for (index, appPath) in apps.enumerated() {
+        for (index, appPath) in appsToReopenAfterUpdate.enumerated() {
             let delay = initialDelay + (Double(index) * staggerDelay)
             DispatchQueue.main.asyncAfter(deadline: .now() + delay) {
                 msc_debug_log("Reopening app in background: \(appPath)")
